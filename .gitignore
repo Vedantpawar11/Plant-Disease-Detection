@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Dataset
+PlantVillage-Dataset/
+data/
+datasets/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Training cache
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
